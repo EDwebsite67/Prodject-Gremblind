@@ -15,6 +15,9 @@ bones/5/rotation = Quaternion(0.70673245, -0.023006214, 0.02300615, 0.70673245)
 bones/8/rotation = Quaternion(-0.61327726, -0.18075359, -0.06547422, 0.7661151)
 bones/10/rotation = Quaternion(-0.538961, -0.019116336, -0.18192181, 0.82222885)
 
+[node name="mesh_0" parent="Gremblind/Armature/Skeleton3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2428894)
+
 [node name="Camera3D" type="Camera3D" parent="Gremblind"]
 transform = Transform3D(0.9986658, -0.040731862, 0.03174087, -4.6563914e-10, 0.61467075, 0.7887838, -0.051638816, -0.7877314, 0.61385065, 0, 92.41393, 78.52081)
 
