@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://egjbjl5dbpaa"]
+
+[ext_resource type="PackedScene" uid="uid://db5t7cq1j5nxv" path="res://Gremblind.blend" id="1_a202f"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Gremblind" parent="." instance=ExtResource("1_a202f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.068703234, 0, -0.6526623)
+
+[node name="Skeleton3D" parent="Gremblind/Armature" index="0"]
+bones/1/rotation = Quaternion(0.37208635, 0.6012918, 0.6012917, -0.37208638)
+bones/2/rotation = Quaternion(-0.5425671, -0.071222655, 0.17275319, 0.8189657)
+bones/4/rotation = Quaternion(-0.4804784, 0.23213424, -0.043741867, 0.84459513)
+bones/5/rotation = Quaternion(0.70673245, -0.023006214, 0.02300615, 0.70673245)
+bones/8/rotation = Quaternion(-0.61327726, -0.18075359, -0.06547422, 0.7661151)
+bones/10/rotation = Quaternion(-0.538961, -0.019116336, -0.18192181, 0.82222885)
+
+[node name="Camera3D" type="Camera3D" parent="Gremblind"]
+transform = Transform3D(0.9986658, -0.040731862, 0.03174087, -4.6563914e-10, 0.61467075, 0.7887838, -0.051638816, -0.7877314, 0.61385065, 0, 92.41393, 78.52081)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 378.73853, 6.300125)
+light_energy = 16.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 0.0
+shadow_enabled = true
+omni_range = 4096.0
+omni_attenuation = 0.185
+
+[editable path="Gremblind"]
