@@ -1,11 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://egjbjl5dbpaa"]
+[gd_scene load_steps=3 format=3 uid="uid://egjbjl5dbpaa"]
 
 [ext_resource type="PackedScene" uid="uid://db5t7cq1j5nxv" path="res://Gremblind.blend" id="1_a202f"]
+[ext_resource type="Script" uid="uid://c3thc5wcmmm4u" path="res://gremblind.gd" id="2_noarx"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="Gremblind" parent="." instance=ExtResource("1_a202f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.068703234, 0, -0.6526623)
+script = ExtResource("2_noarx")
 
 [node name="Skeleton3D" parent="Gremblind/Armature" index="0"]
 bones/1/rotation = Quaternion(0.37208635, 0.6012918, 0.6012917, -0.37208638)
