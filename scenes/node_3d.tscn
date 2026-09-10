@@ -21,7 +21,10 @@ omni_attenuation = 0.185
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=72727313]
 shape = SubResource("WorldBoundaryShape3D_iqkd1")
 
-[node name="CharacterBody3D" parent="." unique_id=1347444143 instance=ExtResource("1_ns6u7")]
+[node name="Grembllind" parent="." unique_id=1347444143 instance=ExtResource("1_ns6u7")]
 
-[node name="CharacterBody3D2" parent="." unique_id=176269552 instance=ExtResource("2_5t4e2")]
+[node name="Camera3D" type="Camera3D" parent="Grembllind" unique_id=1911233624]
+transform = Transform3D(1, 5.0560214e-08, 1.6103726e-08, -5.0560217e-08, 0.8157948, 0.5783414, 1.6103733e-08, -0.5783414, 0.8157948, -8.935932e-06, 131.53207, 102.21514)
+
+[node name="BadGuy" parent="." unique_id=176269552 instance=ExtResource("2_5t4e2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 170.92154)

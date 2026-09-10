@@ -6,7 +6,7 @@
 radius = 33.46289
 height = 66.92578
 
-[node name="CharacterBody3D" type="CharacterBody3D" unique_id=176269552]
+[node name="BadGuy" type="CharacterBody3D" unique_id=176269552]
 
 [node name="BadGuy" parent="." unique_id=841802541 instance=ExtResource("1_ub0gf")]
 
