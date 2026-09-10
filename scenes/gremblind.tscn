@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bol5nsp5pkalx"]
+
+[ext_resource type="Script" uid="uid://fbdewxk71l14" path="res://scripts/character_body_3d.gd" id="1_bwd82"]
+[ext_resource type="PackedScene" uid="uid://uxl4i25gk6o4" path="res://assets/models/Gremblind.blend" id="1_dmkih"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ejki1"]
+radius = 36.103516
+height = 126.09082
+
+[node name="CharacterBody3D2" type="CharacterBody3D" unique_id=1347444143]
+script = ExtResource("1_bwd82")
+
+[node name="Gremblind" parent="." unique_id=505888742 instance=ExtResource("1_dmkih")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=361192119]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 36.266117, -7.8971405)
+shape = SubResource("CapsuleShape3D_ejki1")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=256650288]
+transform = Transform3D(-1, -8.881784e-15, -8.742277e-08, -4.114257e-08, 0.8823381, 0.47061613, 7.7136434e-08, 0.47061613, -0.8823381, 0, 87.16153, -28.396225)
+current = true

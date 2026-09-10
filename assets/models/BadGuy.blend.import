@@ -3,19 +3,21 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://db5t7cq1j5nxv"
-path="res://.godot/imported/Gremblind.blend-51ead3738db46b46a98ed2fa85f9a0f4.scn"
+uid="uid://bbgm5sosdhyn5"
+path="res://.godot/imported/BadGuy.blend-0a0aa1b5c83da351f609101c71b9f8e3.scn"
 
 [deps]
 
-source_file="res://Gremblind.blend"
-dest_files=["res://.godot/imported/Gremblind.blend-51ead3738db46b46a98ed2fa85f9a0f4.scn"]
+source_file="res://assets/models/BadGuy.blend"
+dest_files=["res://.godot/imported/BadGuy.blend-0a0aa1b5c83da351f609101c71b9f8e3.scn"]
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
 nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
@@ -2103,10 +2105,11 @@ blender/nodes/punctual_lights=true
 blender/nodes/cameras=true
 blender/nodes/custom_properties=true
 blender/nodes/modifiers=1
-blender/meshes/colors=false
+blender/meshes/vertex_colors=1
 blender/meshes/uvs=true
 blender/meshes/normals=true
 blender/meshes/export_geometry_nodes_instances=false
+blender/meshes/gpu_instances=false
 blender/meshes/tangents=true
 blender/meshes/skins=2
 blender/meshes/export_bones_deforming_mesh_only=false
@@ -2116,3 +2119,4 @@ blender/animation/limit_playback=true
 blender/animation/always_sample=true
 blender/animation/group_tracks=true
 gltf/naming_version=2
+gltf/texture_map_mode=1

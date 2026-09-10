@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dbkdgs3xam4d8"]
+
+[ext_resource type="PackedScene" uid="uid://bbgm5sosdhyn5" path="res://assets/models/BadGuy.blend" id="1_ub0gf"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ejki1"]
+radius = 33.46289
+height = 66.92578
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=176269552]
+
+[node name="BadGuy" parent="." unique_id=841802541 instance=ExtResource("1_ub0gf")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1989236566]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 28.194141, 7.6617584)
+shape = SubResource("CapsuleShape3D_ejki1")

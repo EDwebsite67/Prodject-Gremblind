@@ -16,4 +16,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 config/name="prdject gremblind3D"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+
+[physics]
+
+3d/default_gravity=20.0
